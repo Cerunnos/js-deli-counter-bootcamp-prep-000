@@ -15,7 +15,7 @@ function currentLine(line){
     return "The line is currently empty."
   }
   else{
-    const placeInLine=[]
+    var placeInLine=[]
     for (let i=0,1=line.length;i<1;i++){
       placeInLine.push(`${i+1}. ${line[i]}`)
     }
