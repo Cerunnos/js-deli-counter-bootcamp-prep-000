@@ -16,7 +16,7 @@ function currentLine(line){
   }
   else{
     var placeInLine=[]
-    for (let i=0;i<placeInLine.length;i++){
+    for (let i=0;i<line.length;i++){
       placeInLine.push(`${i+1}. ${line[i]}`)
     }
     return `The line is currently: ${placeInLine}`
