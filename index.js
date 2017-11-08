@@ -15,6 +15,7 @@ function currentLine(line){
     return "The line is currently empty."
   }
   else{
+    var placeInLine=[]
     return `The line is currently: ${line.length}. ${line},`
   }
 }
